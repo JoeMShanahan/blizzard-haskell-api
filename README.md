@@ -1,1 +1,1 @@
-# blizzard-haskell-api
+# BlizzardApi
