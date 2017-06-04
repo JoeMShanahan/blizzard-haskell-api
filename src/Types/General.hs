@@ -4,6 +4,9 @@
 module Types.General where
 
 import ClassyPrelude
+import Types.Options
+import Types.APIBase
 
-type BlizzardAPIRequest a = APIToken -> a
-type APIToken = Text
+type BlizzardAPIRequest a = APIKey -> a
+
+type APICaller = ReaderT APIOptions IO
