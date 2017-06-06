@@ -4,7 +4,7 @@
 module Types.Options where
 
 import ClassyPrelude
-import Types.APIBase
+import Types.API.Base
 
 data Verbosity = Normal | Verbose
   deriving (Eq, Show)

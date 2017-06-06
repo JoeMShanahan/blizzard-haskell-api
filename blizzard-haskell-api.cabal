@@ -13,9 +13,11 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Lib
+                     , Types.API.BlizzardTypes
+                     , Types.API.Base
+                     , Types.API.Requests
                      , Types.General
                      , Types.Options
-                     , Types.APIBase
   build-depends:       base >= 4.7 && < 5
                      , classy-prelude
                      , wreq

@@ -3,11 +3,12 @@
 
 module Lib
   ( getKey
+  , startAPI
   , verboseLog
   ) where
 
 import ClassyPrelude
-import Types.APIBase
+import Types.API.Base
 import Types.General
 import Types.Options
 
@@ -21,3 +22,5 @@ isVerbose = do
 
 verboseLog :: Text -> APICaller ()
 verboseLog = whenM isVerbose . putStrLn
+
+startAPI = flip runReaderT

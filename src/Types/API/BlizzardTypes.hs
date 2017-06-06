@@ -1,9 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Types.APIBase where
+module Types.API.BlizzardTypes where
 
 import ClassyPrelude
-
-type APIKey = Text
 

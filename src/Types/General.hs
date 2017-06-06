@@ -5,7 +5,7 @@ module Types.General where
 
 import ClassyPrelude
 import Types.Options
-import Types.APIBase
+import Types.API.Base
 
 type BlizzardAPIRequest a = APIKey -> a
 
